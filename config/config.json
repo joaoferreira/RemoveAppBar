@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "remove-app-bar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "manifest": "./src/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RemoveAppBarApplicationCustomizerStrings": "lib/extensions/removeAppBar/loc/{locale}.js"
+  }
+}

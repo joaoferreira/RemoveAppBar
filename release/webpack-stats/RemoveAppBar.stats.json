@@ -1,0 +1,330 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "dc2a1bd575ddd6032566",
+  "time": 686,
+  "builtAt": 1650555541414,
+  "publicPath": "",
+  "outputPath": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\dist",
+  "assetsByChunkName": {
+    "remove-app-bar-application-customizer": "remove-app-bar-application-customizer_e4d8177ecb6ba4bbcd9b.js"
+  },
+  "assets": [
+    {
+      "name": "4b786e34-f76c-4fbc-9103-af1ac417240d.manifest.json",
+      "size": 770,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "remove-app-bar-application-customizer_e4d8177ecb6ba4bbcd9b.js",
+      "size": 1732,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "remove-app-bar-application-customizer"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "remove-app-bar-application-customizer": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "remove-app-bar-application-customizer_e4d8177ecb6ba4bbcd9b.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "remove-app-bar-application-customizer": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "remove-app-bar-application-customizer_e4d8177ecb6ba4bbcd9b.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1554,
+      "names": [
+        "remove-app-bar-application-customizer"
+      ],
+      "files": [
+        "remove-app-bar-application-customizer_e4d8177ecb6ba4bbcd9b.js"
+      ],
+      "hash": "5ed3732ba7dde0e4d16c",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "5QTF",
+          "identifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "name": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "index": 0,
+          "index2": 1,
+          "size": 1512,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+              "loc": "remove-app-bar-application-customizer"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport { BaseApplicationCustomizer } from '@microsoft/sp-application-base';\r\nvar LOG_SOURCE = 'RemoveAppBarApplicationCustomizer';\r\n/** A Custom Action which can be run during execution of a Client Side Application */\r\nvar RemoveAppBarApplicationCustomizer = /** @class */ (function (_super) {\r\n    __extends(RemoveAppBarApplicationCustomizer, _super);\r\n    function RemoveAppBarApplicationCustomizer() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    RemoveAppBarApplicationCustomizer.prototype.onInit = function () {\r\n        document.head.appendChild(document.createElement(\"style\")).innerHTML = \"#sp-appBar{display: none!important;}\";\r\n        return Promise.resolve();\r\n    };\r\n    return RemoveAppBarApplicationCustomizer;\r\n}(BaseApplicationCustomizer));\r\nexport default RemoveAppBarApplicationCustomizer;\r\n//# sourceMappingURL=RemoveAppBarApplicationCustomizer.js.map"
+        },
+        {
+          "id": "GPet",
+          "identifier": "external \"@microsoft/sp-application-base\"",
+          "name": "external \"@microsoft/sp-application-base\"",
+          "index": 1,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "issuerId": "5QTF",
+          "issuerName": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "issuerPath": [
+            {
+              "id": "5QTF",
+              "identifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+              "name": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "5QTF",
+              "moduleIdentifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+              "module": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+              "moduleName": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@microsoft/sp-application-base",
+              "loc": "14:0-75"
+            },
+            {
+              "moduleId": "5QTF",
+              "moduleIdentifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+              "module": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+              "moduleName": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+              "type": "harmony import specifier",
+              "userRequest": "@microsoft/sp-application-base",
+              "loc": "27:2-27"
+            }
+          ],
+          "usedExports": [
+            "BaseApplicationCustomizer"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "remove-app-bar-application-customizer",
+          "request": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "5QTF",
+      "identifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+      "name": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+      "index": 0,
+      "index2": 1,
+      "size": 1512,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "loc": "remove-app-bar-application-customizer"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0,
+      "source": "var __extends = (this && this.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\nimport { BaseApplicationCustomizer } from '@microsoft/sp-application-base';\r\nvar LOG_SOURCE = 'RemoveAppBarApplicationCustomizer';\r\n/** A Custom Action which can be run during execution of a Client Side Application */\r\nvar RemoveAppBarApplicationCustomizer = /** @class */ (function (_super) {\r\n    __extends(RemoveAppBarApplicationCustomizer, _super);\r\n    function RemoveAppBarApplicationCustomizer() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    RemoveAppBarApplicationCustomizer.prototype.onInit = function () {\r\n        document.head.appendChild(document.createElement(\"style\")).innerHTML = \"#sp-appBar{display: none!important;}\";\r\n        return Promise.resolve();\r\n    };\r\n    return RemoveAppBarApplicationCustomizer;\r\n}(BaseApplicationCustomizer));\r\nexport default RemoveAppBarApplicationCustomizer;\r\n//# sourceMappingURL=RemoveAppBarApplicationCustomizer.js.map"
+    },
+    {
+      "id": "GPet",
+      "identifier": "external \"@microsoft/sp-application-base\"",
+      "name": "external \"@microsoft/sp-application-base\"",
+      "index": 1,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+      "issuerId": "5QTF",
+      "issuerName": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+      "issuerPath": [
+        {
+          "id": "5QTF",
+          "identifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "name": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "5QTF",
+          "moduleIdentifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "module": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "moduleName": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@microsoft/sp-application-base",
+          "loc": "14:0-75"
+        },
+        {
+          "moduleId": "5QTF",
+          "moduleIdentifier": "C:\\Users\\JOFR\\Desktop\\Personal\\SharePoint\\RemoveAppBar\\lib\\extensions\\removeAppBar\\RemoveAppBarApplicationCustomizer.js",
+          "module": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "moduleName": "./lib/extensions/removeAppBar/RemoveAppBarApplicationCustomizer.js",
+          "type": "harmony import specifier",
+          "userRequest": "@microsoft/sp-application-base",
+          "loc": "27:2-27"
+        }
+      ],
+      "usedExports": [
+        "BaseApplicationCustomizer"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": "I6O9",
+      "identifier": "external \"@microsoft/sp-loader\"",
+      "name": "external \"@microsoft/sp-loader\"",
+      "index": null,
+      "index2": null,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

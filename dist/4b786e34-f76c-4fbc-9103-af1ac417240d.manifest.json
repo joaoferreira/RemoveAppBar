@@ -1,0 +1,26 @@
+{
+  "id": "4b786e34-f76c-4fbc-9103-af1ac417240d",
+  "alias": "RemoveAppBarApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "remove-app-bar-application-customizer",
+    "scriptResources": {
+      "remove-app-bar-application-customizer": {
+        "type": "path",
+        "path": "remove-app-bar-application-customizer_e4d8177ecb6ba4bbcd9b.js"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.14.0"
+      }
+    }
+  }
+}
